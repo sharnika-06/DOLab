@@ -14,7 +14,7 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
-    option: '-DSkipTests'
+    options: '-DSkipTests'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.21'
     jdkArchitectureOption: 'x64'
